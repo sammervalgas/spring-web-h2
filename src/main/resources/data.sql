@@ -1,0 +1,2 @@
+INSERT INTO STUDENT(uuid, full_name, first_name, last_name, age) VALUES ('353acb34-a6e5-44bd-ba77-8c17a699beab', 'Cris Redfield', 'Cris', 'Redfield', 35);
+INSERT INTO STUDENT(uuid, full_name, first_name, last_name, age) VALUES ('2572f22b-d0f1-4b6b-aa09-bd9f17f98e0c', 'Jill Valentine', 'Jill', 'Valentine', 30);

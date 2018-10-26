@@ -10,7 +10,7 @@ public class IndexController {
     @RequestMapping("/")
     @ResponseBody
     public String index() {
-        return "Hello " + System.getenv("UNAME");
+        return "<center><h1>Hello " + System.getenv("UNAME") + "</h1></center>";
     }
 
 }
