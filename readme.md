@@ -1,7 +1,15 @@
 # SpringBoot Web with H2
 
+###
 
-### Running on OpenShift
+### Running on Minishift
+
+
+Minishift is a tool that helps you run OpenShift locally by running a single-node OpenShift cluster inside a VM. 
+You can try out OpenShift or develop with it, day-to-day, on your local host.       
+For more information: [Minishift](https://github.com/minishift/minishift)
+
+Now we will run commands bellow to deploy the application on **OpenShift**
 
 - Login OpenShift
 ```bash

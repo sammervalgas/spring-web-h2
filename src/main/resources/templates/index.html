@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Spring Thymeleaf Web H2</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" />
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron" align="center">
+
+        <h1>
+            IP: <span th:text="${localhost.toString().toUpperCase()}"></span>
+            <br/>
+            ENV: <span th:text="${uname}"></span>
+        </h1>
+
+
+    </div>
+
+    <br/>
+
+    <div class="row">
+        <div class="col-12">
+            <b>Environments Variables</b>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">UNAME</div>
+        <div class="col-6" th:text="${uname}" ></div>
+    </div>
+    <footer class="footer">Now: <span th:text="${now}"></span></footer>
+    <div class="navbar navbar-fixed-bottom">teste</div>
+
+</div>
+
+    <script src="webjars/jquery/3.0.0/jquery.min.js"></script>
+    <script src="webjars/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
